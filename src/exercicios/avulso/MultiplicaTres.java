@@ -19,7 +19,7 @@ public class MultiplicaTres {
                 System.out.println("Número tem que ser maior que 0");
             }
 
-            System.out.println("O Resultado é : " + String.valueOf(numero));
+            System.out.println(String.format("O Resultado é : %d", numero));
 
             System.out.println("Deseja efetuar outro cálculo? SIM - S / Não - N");
             scanner.nextLine(); //Limpa o buffer do scanner antes de ler a próxima linha
