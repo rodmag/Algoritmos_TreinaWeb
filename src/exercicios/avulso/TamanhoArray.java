@@ -12,7 +12,7 @@ public class TamanhoArray {
 
         int[] array = new int[tamanho];
         for (int i = 0; i < array.length; i++){
-            System.out.println("Digite o númeto para o Array posição "+ i);
+            System.out.println("Digite o número para o Array posição "+ i);
             int numero = leitor.nextInt();
             array[i] = numero;
         }
