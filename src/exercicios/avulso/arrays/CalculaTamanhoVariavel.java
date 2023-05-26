@@ -17,10 +17,19 @@ public class CalculaTamanhoVariavel {
         System.out.println("O valor do número " + inteiro + " em bits é = " + binario);
 
         //Calcula tamanho do array em Bits
-        int[] array = new int[2];
+        int[] array = new int[1];
         int tamanhoEmBits = array.length * Integer.SIZE;
 
+        String[] array2 = {"t"};
+        int tamanhoEmBits2 = 0;
+
+        for (String elemento : array2) {
+            byte[] bytes = elemento.getBytes();
+            tamanhoEmBits2 += bytes.length * Byte.SIZE;
+        }
+
         System.out.println("Tamanho em bits do array: " + tamanhoEmBits);
+        System.out.println("Tamanho em bits do array: " + tamanhoEmBits2);
     }
 
 }
