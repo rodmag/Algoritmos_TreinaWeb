@@ -1,3 +1,5 @@
+//Objetivo: Praticar a contagem em bits e bits de variáveis e Arrays.
+
 package exercicios.avulso.arrays;
 
 public class CalculaTamanhoVariavel {
