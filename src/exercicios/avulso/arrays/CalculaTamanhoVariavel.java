@@ -20,7 +20,7 @@ public class CalculaTamanhoVariavel {
         int[] array = new int[1];
         int tamanhoEmBits = array.length * Integer.SIZE;
 
-        String[] array2 = {"t"};
+        String[] array2 = {"teste"};
         int tamanhoEmBits2 = 0;
 
         for (String elemento : array2) {
