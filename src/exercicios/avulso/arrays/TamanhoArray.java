@@ -1,4 +1,4 @@
-package exercicios.avulso;
+package exercicios.avulso.arrays;
 
 import java.util.Scanner;
 

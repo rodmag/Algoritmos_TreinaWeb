@@ -1,4 +1,7 @@
-//Objetivo: Praticar a contagem em bits e bits de variáveis e Arrays.
+/*
+Objetivo: Praticar a contagem em bits e bits de variáveis e Arrays.
+Autor: Rodrigo Santos
+ */
 
 package exercicios.avulso.arrays;
 
