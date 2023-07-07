@@ -29,7 +29,7 @@ public class MenuSimples {
 
     private static void fazerVetor() {
         String[] vetorPessoas = new String[3];
-        vetorPessoas[0] = new String("teste");
+        vetorPessoas[0] = new String("com/freecodecamp/teste");
         System.out.println(vetorPessoas[0]);
     }
 }

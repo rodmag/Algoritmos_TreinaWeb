@@ -9,7 +9,7 @@ public class CalculaTamanhoVariavel {
     public static void main(String[] args) {
 
         //Conta o bytes
-        String nome = "teste";
+        String nome = "com/freecodecamp/teste";
         int numero = 5033;
         String converteNumero = Integer.toString(numero);
         System.out.println("bytes de " + nome + " = " + nome.getBytes().length);
@@ -25,7 +25,7 @@ public class CalculaTamanhoVariavel {
         int[] array = new int[1];
         int tamanhoEmBits = array.length * Integer.SIZE;
 
-        String[] array2 = {"teste"};
+        String[] array2 = {"com/freecodecamp/teste"};
         int tamanhoEmBits2 = 0;
 
         for (String elemento : array2) {
