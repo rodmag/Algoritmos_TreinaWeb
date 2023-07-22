@@ -40,7 +40,7 @@ public class Operators {
         // less than or equal
         System.out.println("The number 1 is greater or equal to number 2: " + (num1 >= num2));
 
-        // less than or eual
+        // less than or equal
         System.out.println("The number 1 is less or equal to number 2: " + (num1 <= num2));
     }
 }
