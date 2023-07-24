@@ -1,5 +1,6 @@
 package com.freecodecamp.strings;
 
+import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 
 public class Strings {
@@ -18,6 +19,9 @@ public class Strings {
         System.out.println(text.replace("red", "blue"));
         System.out.println(text.toUpperCase());
         System.out.println(text.contains("sky"));
+        System.out.println(text.length());
+        System.out.println(text.getBytes(StandardCharsets.UTF_8));
+        System.out.println(text.getBytes());
 
     }
 }
