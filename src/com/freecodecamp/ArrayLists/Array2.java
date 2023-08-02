@@ -15,6 +15,8 @@ public class Array2 {
 
         System.out.println(numbers.toString());
 
+        System.out.println("The size of the ArrayList is: " + numbers.size());
+
         numbers.remove(1);
 
         System.out.println(numbers.toString());
