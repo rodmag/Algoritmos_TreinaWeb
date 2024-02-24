@@ -32,7 +32,7 @@ public class Array2 {
         System.out.println(numbers.toString());
 
         numbers.forEach(number -> {
-            System.out.println(number * 10);
+            System.out.println("O número: " + number * 10);
         });
 
 
