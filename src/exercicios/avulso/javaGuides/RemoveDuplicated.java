@@ -13,6 +13,8 @@ public class RemoveDuplicated {
                 .distinct()
                 .collect(Collectors.toList());
 
-        System.out.println(result);
+
+        System.out.println("Lista sem dupicados: " + result);
+        System.out.println("Tamanho da lista: " + result.size());
     }
 }
